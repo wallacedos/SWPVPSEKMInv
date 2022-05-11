@@ -17,10 +17,11 @@ be dynamically evaluated for each model m occurred in the inversion process.
 
 Note:
 Before using the inversion workflow, we strongly recommend that you read 
-our article. The article is placed in "SWPVPSEKMInv\Doc". If you publish
-an article by using our inversion programs, please cite our article. If
-there are any questions about the code, please contact with the first 
-author Yan Yingwei by email "wallace2012y@outlook.com".
+our article and the tutorial. The article and tutorial are placed in 
+"main-folder"\Doc. If you publish an article by using our inversion programs, 
+please cite our article. If there are any questions about the code, please 
+contact with the first author Yan Yingwei by email "wallace2012y@outlook.com".
+
 The code has been debugged on the the matlab R2019a. A higher or lower 
 version of matlab may also make the code run successfully.
 

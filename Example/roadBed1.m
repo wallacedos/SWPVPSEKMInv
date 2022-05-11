@@ -24,12 +24,13 @@
 %
 % Note:
 % Before using the inversion workflow, we strongly recommend that you read 
-% our article. The article is placed in "SWPVPSEKMInv\Doc". If you publish
+% our article and the screen recording tutorial.
+% The article and tutorial are placed in "main-folder"\Doc. If you publish
 % an article by using our inversion programs, please cite our article. If
 % there are any questions about the code, please contact with the first 
 % author Yan Yingwei by email "wallace2012y@outlook.com".
 %
-% Please ensure the folder "SWPVPSEKMInv\" is in the current directory of 
+% Please ensure the main folder is in the current directory of 
 % matlab, and its subfolders are also added the path of matlab.
 %
 % The code has been debugged on the the matlab R2019a. A higher or lower 
