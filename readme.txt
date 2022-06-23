@@ -29,7 +29,7 @@ Our article:
 Yan, Y., Chen, X., Huai, N., Guan, J.2022.Modern inversion workflow of 
 the multimodal surface wave dispersion curves: Staging strategy and Pattern 
 search with embedded Kuhn-Munkres algorithm, Geophysical Journal
-International,ggac178, 
+International,231(01), 47-71,  
 https://doi.org/10.1093/gji/ggac178. 
 
 Author(s): Yan Yingwei
