@@ -36,6 +36,8 @@
 % The code has been debugged on the the matlab R2019a. A higher or lower 
 % version of matlab may also make the code run successfully.
 %
+% It would run for about a few minutes.
+%
 % Our article:
 % Yan, Y., Chen, X., Huai, N., Guan, J.2022.Modern inversion workflow of 
 % the multimodal surface wave dispersion curves: Staging strategy and Pattern 
@@ -112,7 +114,7 @@ ModelInfo.den = 2000*ones(1,num_layer);   % density vector
 
 ObsInfo.f = f(Index);    % frequency vector of the fundamental-mode
 ObsInfo.pv = pv(Index,1);% the observed phase velocity of the fundamental-mode
-ObsInfo.maxModeNum = 1;  % the possible maximum mode-order
+ObsInfo.maxModeNum = 1;  % the possible minimum mode-order
 
 global n_mode;
 n_mode = ObsInfo.maxModeNum;
@@ -130,7 +132,7 @@ i = 2;
 ObsInfo.f = f;             % frequency vector
 ObsInfo.pv = pv;           % all the observed phase velocities
 [~, nn] = size(pv);
-ObsInfo.maxModeNum = nn;   % the possible maximum mode-order
+ObsInfo.maxModeNum = nn;   % the possible minimum mode-order
 n_mode = 12;
 ModelInfo.Ini = mInv;
 [mInv,fValue,~] = rayleighDCMNKPSInv(ObsInfo,ModelInfo,InvParameterInfo);

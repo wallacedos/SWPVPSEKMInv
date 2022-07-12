@@ -25,6 +25,18 @@ contact with the first author Yan Yingwei by email "wallace2012y@outlook.com".
 The code has been debugged on the the matlab R2019a. A higher or lower 
 version of matlab may also make the code run successfully.
 
+"main-folder"\Example consists of three sample scripts.
+
+roadBed1.m: reproduction of the inversion of roadbed 1 of our article.
+
+DispersionMeasurement_GVDA.m: Measuring the multimodal dispersion of the
+distributed-acoustic-sensing (DAS) data collected at Long Line I at 
+Garner Vallry Downhole Array (GVDA), California. We utlize the cylindrical-wave
+phase to measure the multimodal dispersion from the CCFs of the DAS data.
+
+DASDCDataInversion_GVDA.m: Inversion of the multimodal dispersion curves of the 
+DAS data. We adopt the modern inversion workflow in our article. 
+
 Our article:
 Yan, Y., Chen, X., Huai, N., Guan, J.2022.Modern inversion workflow of 
 the multimodal surface wave dispersion curves: Staging strategy and Pattern 
@@ -35,7 +47,7 @@ https://doi.org/10.1093/gji/ggac178.
 Author(s): Yan Yingwei
 Email:     wallace2012y@outlook.com
 Copyright: 2022-2025 
-Revision:  1.0  Date: 5/10/2022
+Revision:  1.0  Date: 7/12/2022
 
 Department of Earth and Space Sciences, Southern University of Science 
 and Technology (SUSTech).
