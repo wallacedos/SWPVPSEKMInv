@@ -27,7 +27,7 @@ version of matlab may also make the code run successfully.
 
 "main-folder"\Example consists of three sample scripts.
 
-roadBed1.m: reproduction of the inversion of roadbed 1 of our article.
+roadBed1.m: reproduction of the inversion of roadbed 1 of our article 1.
 
 DispersionMeasurement_GVDA.m: Measuring the multimodal dispersion of the
 distributed-acoustic-sensing (DAS) data collected at Long Line I at 
@@ -37,6 +37,9 @@ phase to measure the multimodal dispersion from the CCFs of the DAS data.
 DASDCDataInversion_GVDA.m: Inversion of the multimodal dispersion curves of the 
 DAS data. We adopt the modern inversion workflow in our article. 
 
+DispersionMeasurement_GVDA.m and DASDCDataInversion_GVDA.m reproduce the result
+of our article 2.
+
 Our article:
 Yan, Y., Chen, X., Huai, N., Guan, J.2022.Modern inversion workflow of 
 the multimodal surface wave dispersion curves: Staging strategy and Pattern 
@@ -44,10 +47,16 @@ search with embedded Kuhn-Munkres algorithm, Geophysical Journal
 International,231(01), 47-71,  
 https://doi.org/10.1093/gji/ggac178. 
 
+Yan， Y., Chen, X., Li, J., Guan, J., Xi, C., Liu, H. 2023. Inversion of
+multimodal dispersion curves from distributed acoustic sensing measurements
+for subsurface imaging: A field case of Garner Valley, California, Journal of
+Applied Geophysics, 214, 105070,
+https://doi.org/10.1016/j.jappgeo.2023.105070 
+
 Author(s): Yan Yingwei
 Email:     wallace2012y@outlook.com
 Copyright: 2022-2025 
-Revision:  1.0  Date: 7/12/2022
+Revision:  1.0  Date: 9/6/2023
 
 Department of Earth and Space Sciences, Southern University of Science 
 and Technology (SUSTech).

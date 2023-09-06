@@ -11,6 +11,8 @@
 % https://gdr.openei.org/submissions/481
 % http://nees.ucsb.edu/facilities/GVDA
 %
+% It reproduces the inversion results of the article 2.
+%
 % Note:
 % Before using the script, we strongly recommend that you read our article 
 % and the screen recording tutorial. The article and tutorial are placed in
@@ -34,10 +36,16 @@
 % International,231(01), 47-71, 
 % https://doi.org/10.1093/gji/ggac178. 
 %
+% Yan， Y., Chen, X., Li, J., Guan, J., Xi, C., Liu, H. 2023. Inversion of
+% multimodal dispersion curves from distributed acoustic sensing measurements
+% for subsurface imaging: A field case of Garner Valley, California, Journal of
+% Applied Geophysics, 214, 105070,
+% https://doi.org/10.1016/j.jappgeo.2023.105070 
+%
 % Author(s): Yan Yingwei
 % Email:     wallace2012y@outlook.com
 % Copyright: 2022-2025 
-% Revision:  1.0  Date: 7/11/2022
+% Revision:  1.0  Date: 9/6/2023
 %
 % Department of Earth and Space Sciences, Southern University of Science 
 % and Technology (SUSTech).

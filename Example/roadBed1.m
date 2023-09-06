@@ -19,7 +19,7 @@
 %
 % Purpose of this script:
 % The script reproduces the inversion result of the roadbed 1 of our
-% article.It would generate the Figure 11(c) and 11(d) after runing the
+% article 1.It would generate the Figure 11(c) and 11(d) after runing the
 % script.
 %
 % Note:
@@ -45,10 +45,16 @@
 % International,231(01), 47-71, 
 % https://doi.org/10.1093/gji/ggac178. 
 %
+% Yan， Y., Chen, X., Li, J., Guan, J., Xi, C., Liu, H. 2023. Inversion of
+% multimodal dispersion curves from distributed acoustic sensing measurements
+% for subsurface imaging: A field case of Garner Valley, California, Journal of
+% Applied Geophysics, 214, 105070,
+% https://doi.org/10.1016/j.jappgeo.2023.105070 
+%
 % Author(s): Yan Yingwei
 % Email:     wallace2012y@outlook.com
-% Copyright: 2022-2025 
-% Revision:  1.0  Date: 5/10/2022
+% Copyright: 2022-2025
+% Revision:  1.0  Date: 9/6/2023
 %
 % Department of Earth and Space Sciences, Southern University of Science 
 % and Technology (SUSTech).

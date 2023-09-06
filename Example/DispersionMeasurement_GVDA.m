@@ -11,6 +11,8 @@
 % https://gdr.openei.org/submissions/481
 % http://nees.ucsb.edu/facilities/GVDA
 %
+% It reproduces the dispersion measurement results of the article 2.
+%
 % Note:
 % Before using the script, we strongly recommend that you read our article 
 % and the screen recording tutorial. The article and tutorial are placed in
@@ -28,10 +30,9 @@
 % It would run for about a few hours.
 %
 % References: 
-% Haney, M., & Nakahara, H. 2014. Surface-Wave Green¡¯s Tensors in the 
+% Haney, M., & Nakahara, H. 2014. Surface-Wave Greenï¿½ï¿½s Tensors in the 
 % Near Field, Bulletin of the Seismological Society of America, 104(3), 
 % 1578-1586, https://doi.org/10.1785/0120130113.
-%
 %
 % Our article:
 % Yan, Y., Chen, X., Huai, N., Guan, J.2022.Modern inversion workflow of 
@@ -40,10 +41,16 @@
 % International,231(01), 47-71, 
 % https://doi.org/10.1093/gji/ggac178. 
 %
+% Yanï¼Œ Y., Chen, X., Li, J., Guan, J., Xi, C., Liu, H. 2023. Inversion of
+% multimodal dispersion curves from distributed acoustic sensing measurements
+% for subsurface imaging: A field case of Garner Valley, California, Journal of
+% Applied Geophysics, 214, 105070,
+% https://doi.org/10.1016/j.jappgeo.2023.105070 
+%
 % Author(s): Yan Yingwei
 % Email:     wallace2012y@outlook.com
 % Copyright: 2022-2025 
-% Revision:  1.0  Date: 7/11/2022
+% Revision:  1.0  Date: 9/6/2023
 %
 % Department of Earth and Space Sciences, Southern University of Science 
 % and Technology (SUSTech).
@@ -62,7 +69,7 @@ dt = 1/Fs;           % sampling interval, s
 [M,N] = size(data); % the shape of raw DAS data
 T = M*dt;           % the total recording time, s
 %% set the parameters for getting all CCFs gathers
-secT =5;            % the time-length of CCF£¬s
+secT =5;            % the time-length of CCFï¿½ï¿½s
 alp = 4/5;          % overlap ration of adjacent time-window
 secPT = floor(secT/dt);    % the number of samples of each CCF
 
